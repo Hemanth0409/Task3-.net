@@ -19,16 +19,8 @@ namespace Task3
 
             foreach (var i in arrList)
             {
-                {
-                    if (i == null) 
-                    {
-                        Console.WriteLine("I have Null");
-                    }
-                    else
-                    {
-                        Console.WriteLine($"The given datas is,"typeof(i));
-                    }
-                }
+                var y = i ?? "I have null";
+                Console.WriteLine(y);
             }
         }
     }

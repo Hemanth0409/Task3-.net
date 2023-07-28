@@ -97,7 +97,7 @@ namespace Task3
             prg2 taskprg2 = new prg2();
             taskprg2.task3prg2();
 
-            //Console.ReadKey();
+            Console.ReadKey();
 
             //prg3 prgObj = new prg3();
             //prgObj.displayFunction(prgObj);
